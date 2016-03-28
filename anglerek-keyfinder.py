@@ -48,7 +48,7 @@ def solve_xi(Y, g, p, p_i, e, phi):
 	D_c = pow(D_a, H, p)
 	D_cc = D_c
 
-	part_size = 10000
+	part_size = 1000000
 	i = 1
 	x_i = 0
 	while(i <= H):
